@@ -7,3 +7,8 @@ wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/sms/ma
 ```
 wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/sms/main/luci-app-smstools3.ipk" -O /tmp/luci-app-smstools3.ipk && chmod +x /tmp/luci-app-smstools3.ipk && cd /tmp && opkg update && opkg install *.ipk
 ```
+
+# 3ginfo
+```
+wget -q --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/sms/main/luci-app-3ginfo.ipk" -O /tmp/luci-app-3ginfo.ipk && chmod +x /tmp/luci-app-3ginfo.ipk && cd /tmp && opkg update && opkg install *.ipk
+```
